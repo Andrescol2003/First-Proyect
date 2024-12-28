@@ -16,19 +16,6 @@ th, td {
     padding: 8px;
 }
 
-/* Align columns */
-#Animal {
-    text-align: center;
-}
-
-#Description {
-    text-align: center;
-}
-
-#Image {
-    text-align: center;
-}
-
 /* Table header styling */
 thead th {
     background-color: #5ab7fa;
@@ -47,12 +34,27 @@ th, td {
     vertical-align: middle; /* Vertical alignment */
 }
 
-/* Table header styling */
 thead th {
-    background-color: #87CEEB; 
+    background-color: #87CEEB; /* Table header back-ground */
     font-weight: bold;
 }
 
 thead, tr{ 
-text-align: center;
+text-align: center; /* Puting all our headers aling center */
+}
+
+td a{
+    display: flex;
+    justify-content: center; /*Centering the button, to be under the img */
+    margin-top: 10px;
+}
+
+button {
+    background-color: #f5e311;
+    color: black;
+    border: 10px;
+    padding: 5px 10px; /* Smaller padding for a smaller button */
+    font-size: 12px; /* Smaller text size */
+    cursor: pointer;
+    border-radius: 5px;
 }
