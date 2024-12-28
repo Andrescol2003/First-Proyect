@@ -1,3 +1,58 @@
 body {
- background: blue;
+    background: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+/* Style.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Align columns */
+#Animal {
+    text-align: center;
+}
+
+#Description {
+    text-align: center;
+}
+
+#Image {
+    text-align: center;
+}
+
+/* Table header styling */
+thead th {
+    background-color: #5ab7fa;
+    font-weight: bold;
+}
+
+/* Optional: Table rows hover effect */
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* Horizontal alignment */
+    vertical-align: middle; /* Vertical alignment */
+}
+
+/* Table header styling */
+thead th {
+    background-color: #87CEEB; 
+    font-weight: bold;
+}
+
+thead, tr{ 
+text-align: center;
 }
